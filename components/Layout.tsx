@@ -2,7 +2,7 @@
 interface LayoutProps{
     children: React.ReactNode;
 }
-// import FollowBar from "@/components/layout/FollowBar"
+import FollowBar from "./layout/Followbar"
 import Sidebar from "./layout/Sidebar"
 
 
@@ -21,7 +21,7 @@ import Sidebar from "./layout/Sidebar"
           ">
             {children}
           </div>
-          {/* <FollowBar /> */}
+           <FollowBar />
         </div>
      </div>
     </div>
